@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sekolah Cemerlang</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="https://via.placeholder.com/50" alt="Logo Sekolah">
+        <nav>
+            <ul>
+                <li><a href="#home">Halaman Utama</a></li>
+                <li><a href="#jurusan">Jurusan</a></li>
+                <li><a href="#lab">Lab</a></li>
+                <li><a href="#galeri">Galeri</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <h1>Selamat Datang di Sekolah Cemerlang</h1>
+        <p>Tempat terbaik untuk belajar dan berkembang.</p>
+    </section>
+
+    <section id="jurusan" class="section">
+        <div class="container">
+            <h2>Jurusan</h2>
+            <p>Kami menawarkan berbagai jurusan unggulan seperti:</p>
+            <ul>
+                <li>Ilmu Pengetahuan Alam (IPA)</li>
+                <li>Ilmu Pengetahuan Sosial (IPS)</li>
+                <li>Teknik Informatika</li>
+                <li>Bahasa dan Sastra</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="lab" class="section">
+        <div class="container">
+            <h2>Lab</h2>
+            <p>Sekolah kami dilengkapi dengan laboratorium modern untuk mendukung pembelajaran:</p>
+            <ul>
+                <li>Lab Komputer</li>
+                <li>Lab Biologi</li>
+                <li>Lab Fisika</li>
+                <li>Lab Kimia</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="galeri" class="section">
+        <div class="container">
+            <h2>Galeri</h2>
+            <p>Berikut beberapa momen berharga di sekolah kami:</p>
+            <div>
+                <img src="https://via.placeholder.com/300" alt="Foto 1">
+                <img src="https://via.placeholder.com/300" alt="Foto 2">
+                <img src="https://via.placeholder.com/300" alt="Foto 3">
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak" class="section">
+        <div class="container">
+            <h2>Kontak</h2>
+            <p>Hubungi kami melalui formulir berikut:</p>
+            <form id="contact-form">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sekolah Cemerlang. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
